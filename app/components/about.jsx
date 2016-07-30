@@ -14,7 +14,11 @@ var React = require('react');
 
 var About = (props)=>{
   return (
-    <h3>About Component</h3>
+    <div>
+    <h3>About</h3>
+    <p>This is app is my first react app It is connected to the openweatherapi</p>
+    <p>apparently i cant use punctuation in jsx</p>
+    </div>
   );
 }
 
