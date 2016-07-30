@@ -1,23 +1,19 @@
 var React = require('react');
 
-//This original about createClass component
-
-// var About = React.createClass({
-//   render: function(){
-//     return (
-//       <h3>About Component</h3>
-//     );
-//   }
-// });
-
-//This is the syntax to use if the component only renders
-
 var About = (props)=>{
   return (
     <div>
-    <h3>About</h3>
-    <p>This is app is my first react app It is connected to the openweatherapi</p>
-    <p>apparently i cant use punctuation in jsx</p>
+      <h3 className="text-center">About</h3>
+      <p>This is app is my first react app It is connected to the openweatherapi</p>
+      <p>Here are some of the tools I used:</p>
+      <ul>
+        <li>
+          <a href="https://facebook.github.io/react">React</a> - This was the JavaScript Framework I used
+        </li>
+        <li>
+          <a href="http://foundation.zurb.com/">Foundation</a> - This is the css framework used
+        </li>
+      </ul>
     </div>
   );
 }
